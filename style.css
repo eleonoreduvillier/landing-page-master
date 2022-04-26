@@ -1,0 +1,97 @@
+/* Write some CSS below */
+h1, a {
+	color: white;
+	font-family: 'Chivo', sans-serif;
+}
+.banner {
+	text-align: center;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+}
+.banner h1{
+	font-size: 45px;
+	margin: 0px;
+}
+.banner h2{
+	font-size: 25px;
+	color: white;
+	opacity: 0.7;
+	font-weight: lighter;
+}
+
+h2{
+	color:  white;
+	font-family: 'Chivo', sans-serif;
+}
+h3{
+	font-size: 24px;
+}
+body{
+	margin: 0px
+}
+
+body{
+	font-size: 18px;
+}
+.button-blue{
+	background-color: #1A48E3;
+	font-weight:  bold;
+	font-size: 20px;
+	color:  white;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 16px 48px;
+	display: inline-block;
+}
+.button-blue:hover {
+	background-color: #0D1EC6
+}
+h3, h4, p {
+	color: #404042;
+	font-family: 'Chivo', sans-serif;
+}
+img {
+	width: 200px;
+}
+.container {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.cards {
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+.footer {
+	color: white;
+	background-color: #404042;
+	padding: 10px;
+	margin-top: 45px;
+	background-size: cover;
+	background-position: center;
+}
+.footer p{
+	color: white;
+}
+.card-white{
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 25px;
+	margin: 8px;
+}
+.card-white img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h4 {
+  margin-bottom: 0;
+}
